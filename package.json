@@ -1,6 +1,6 @@
 {
   "name": "@libs-scripts-mep/telegram-bot",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Biblioteca utilizada para transmitir mensagens dos scripts de teste para um grupo no telegram.",
   "main": "telegram-bot.js",
   "scripts": {
