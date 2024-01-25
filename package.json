@@ -1,0 +1,23 @@
+{
+  "name": "@libs-scripts-mep/telegram-bot",
+  "version": "1.0.0",
+  "description": "Biblioteca utilizada para transmitir mensagens dos scripts de teste para um grupo no telegram.",
+  "main": "telegram-bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/libs-scripts-mep/telegram-bot.git"
+  },
+  "keywords": [
+    "telegram",
+    "bot"
+  ],
+  "author": "Thiago Santos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/libs-scripts-mep/telegram-bot/issues"
+  },
+  "homepage": "https://github.com/libs-scripts-mep/telegram-bot#readme"
+}
