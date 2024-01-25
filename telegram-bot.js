@@ -45,9 +45,9 @@ export default class TelegramBot {
      * 
      * @param {string} text Mensagem que será enviada no chat do bot
      * @param {string} parseMode formatação da mensagem (html, Markdown)
-     * @param {boolean} disableWebPagePreview 
-     * @param {boolean} disableNotification 
-     * @param {boolean} replyMessageID 
+     * @param {boolean} disableWebPagePreview Desativa visualizações de links nesta mensagem
+     * @param {boolean} disableNotification Envia a mensagem silenciosamente.
+     * @param {boolean} replyMessageID Se a mensagem for uma resposta, ID da mensagem original
      * @returns {Object}
      * 
      * # Exemplo

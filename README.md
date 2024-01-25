@@ -1,4 +1,4 @@
-# Serialport WebSocket
+# Telegram Bot
 
 Biblioteca que permite gerenciar portas seriais através do browser via websocket
 
@@ -42,7 +42,7 @@ import TelegramBot from "../libs/telegram-bot.js"
 
 Após isso basta invocar o método desejado.
 
-### Métodos implementados:
+### Métodos implementados
 
 ```js
 
