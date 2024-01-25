@@ -1,6 +1,6 @@
 # Telegram Bot
 
-Biblioteca que permite gerenciar portas seriais através do browser via websocket
+Biblioteca utilizada para transmitir mensagens dos scripts de teste para o telegram através de um bot.
 
 ## Instalando
 
@@ -31,16 +31,16 @@ npm uninstall @libs-scripts-mep/telegram-bot
 Realize a importação:
 
 ```js
-import TelegramMepBot from "../libs/telegram-bot-mep.js" 
-```
-
-ou para funções expecificas do bot mep
-
-```js
 import TelegramBot from "../libs/telegram-bot.js" 
 ```
 
-Após isso basta invocar o método desejado.
+ou para funções específicas do bot mep
+
+```js
+import TelegramMepBot from "../libs/telegram-bot-mep.js" 
+```
+
+Após isso basta invocar o método desejado
 
 ### Métodos implementados
 
@@ -52,8 +52,8 @@ await TelegramBot.sendMessage("message")
 
 await TelegramBot.sendPhoto("https://i.imgur.com/HWpENJX.png")
 
-await TelegramBot.sendDocument("message", "caption", "logTest.txt")
+await TelegramBot.sendDocument(["message"], "caption", "logTest.txt")
 
-await TelegramBot.sendLogTest("message", "error", "logTest.txt")
+await TelegramMepBot.sendLogTest(Log.history, error, serialNumber)
 
 ```

@@ -52,11 +52,15 @@ export default class TelegramBot {
      * 
      * # Exemplo
      * 
+     * ```js
      * const result = await TelegramBot.sendMessage("Escreva aqui sua menssagem")
+     * ```
      * 
      * # Result
      * 
-     * {ok: true, result: {…}}
+     * ```js
+     * {ok: Boolean, result: {object}}
+     * ```
      * 
      */
 
@@ -96,13 +100,17 @@ export default class TelegramBot {
      * @param {string} nameDocument nome do arquivo que será enviado no chat
      * @returns {Object}
      * 
-     * Exemplo
+     * # Exemplo
      * 
+     * ```js
      * const result = await TelegramBot.sendDocument("Mensagem do arquivo", "Arquivo de teste", "logTest.txt")
+     * ```
      * 
-     * Retorno
+     * # Retorno
      * 
-     * {ok: true, result: {…}}
+     * ```js
+     * {ok: Boolean, result: {object}}
+     * ```
      * 
      */
     static async sendDocument(message = ["Base message for txt files"], caption = "File", nameDocument = 'logTest.txt') {
@@ -133,13 +141,17 @@ export default class TelegramBot {
      * @param {string} caption legenda que compõe a menssagem da foto
      * @returns {Object}
      * 
-     * Exemplo
+     * # Exemplo
      * 
+     * ```js
      * const result = await TelegramBot.sendPhoto("https://i.imgur.com/HWpENJX.png", "Minha foto")
+     * ```
      * 
-     * Retorno
+     * # Retorno
      * 
-     * {ok: true, result: {…}}
+     * ```js
+     * {ok: Boolean, result: {object}}
+     * ```
      * 
      */
     static async sendPhoto(photo, caption = "Imagem") {
